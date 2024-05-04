@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 6 - Indefinite Pronouns</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); height: 640vh; }
+.buttons{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:30px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:250px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons:active{
+opacity: 0.7;
+}
+
+.buttons1{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:23px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:175px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  
+}
+.buttons1:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons1:active{
+opacity: 0.7;
+}
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:70px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+
+
+.dropdown{ display: flex;}
+ .dropdown button{
+  background-color: #D1E4C4; color: black; padding: 10px 30px;
+  border:none; cursor:pointer; box-shadow: 5px 5px 7px black;
+  transition:0.05s; border-radius:4px;
+ }
+
+ .dropdown a{
+  display: flex; text-decoration: none; text-align: center; padding: 10px 23px; margin-top:10px; background-color: #D1E4C4;
+  color:black; box-shadow: 5px 5px 7px black; border-radius:4px; margin-left:5px;
+ }
+
+ .dropdown .content{
+   position: absolute; min-width:100px;
+  display:none;
+ }
+
+ .dropdown:hover .content{ 
+  display:flex;
+ }
+ .dropdown:hover button{
+  background-color: #F1F7ED; color:black;
+ }
+ .dropdown a:hover{
+  background-color: #F1F7ED; color:black;
+ }
+
+
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px; cursor:pointer;}
+
+.div1 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.div2 {font-size: 30px;}
+.div3  {margin-top: 30px;padding-top:60px; padding-left: 60px; }
+.div4 {text-align: left; font-size: 30px; padding-left: 45px;}
+.div5 {display: grid; grid-template-columns: 900px; justify-content: center; }
+.div6 {display: grid; grid-template-columns: 1fr 1fr;}
+.div7 {text-align: center; font-size: 40px;}
+.div8 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.img {width:300px; height: 270px;}
+.img2 {width:300px; height: 270px; }
+
+@media screen and (max-width: 1000px){
+.p{text-align: center; font-size: 25px;}
+.p1 {font-size: 25px;}
+
+.div1 {display: grid; grid-template-columns: 1fr;}
+.div2 {font-size: 15px;}
+.div3  {margin-top: 0px;padding-top:100px; padding-left: 0px; }
+.div4 {text-align: left; font-size: 23px;}
+.div5 {display: grid; grid-template-columns: 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 30px;}
+.div8 {display: grid; grid-template-columns: 1fr ;}
+.wrapper { overflow-x: hidden; width: 100%; background: linear-gradient(45deg, white, #D1E4C4, white);}
+
+.img{width:150px; height: 135px;}
+.img2 {width:150px; height: 135px; }
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: hidden;}
+
+.buttons{
+  background-color:#D1E4C4;
+  color: black; 
+  box-shadow:5px 0px 7px black;
+  border-radius:10px;
+  cursor: pointer;
+  margin-right:5px;
+  font-size:30px;
+  transition: background-color 1s;
+  transition: color 1s;
+  width:250px;
+  height: 80px;  
+  border-width: 2px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  
+}
+.buttons:hover{
+background-color:#F1F7ED;
+color:black;
+box-shadow: 5px 0px 7px black;
+}
+.buttons:active{
+opacity: 0.7;
+}
+
+}
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="wrapper">
+<h1 class="tooltips"> Indefinite Pronouns<span class="tooltipstext">&emsp;We use indefinite pronouns to refer to people or things without  <br>&emsp;saying exactly who or what they are.<br> &emsp;<b>P</b>ronouns ending in -<b>body</b> or -<b>one</b> for people<br> &emsp;<b>P</b>ronouns ending in -<b>thing</b> for things.</span></h1>
+
+
+<div class="div1" style=" ">
+
+<div style="box-shadow: 1px 0 1px grey; text-align: center;">
+<p style="text-align: center; font-size: 40px;"> People </p>
+<button onmousedown="sound1.play()" class="buttons"> anybody </button>
+<button onmousedown="sound2.play()" class="buttons"> everybody </button>
+<button onmousedown="sound3.play()" class="buttons"> somebody </button>
+<button onmousedown="sound4.play()" class="buttons"> nobody </button>
+</div>
+
+<div style="box-shadow: 1px 0 1px grey; text-align: center;">
+<p style="text-align: center; font-size: 40px;"> People </p>
+<button onmousedown="sound5.play()" class="buttons"> anyone </button>
+<button onmousedown="sound6.play()" class="buttons"> everyone </button>
+<button onmousedown="sound7.play()" class="buttons"> someone </button>
+<button onmousedown="sound8.play()" class="buttons"> no one </button>
+</div>
+
+<div style="box-shadow: 1px 0 1px grey; text-align: center;">
+<p style="text-align: center; font-size: 40px;">Things</p>
+<button onmousedown="sound9.play()" class="buttons"> anything </button>
+<button onmousedown="sound10.play()" class="buttons"> everything </button>
+<button onmousedown="sound11.play()" class="buttons"> something </button>
+<button onmousedown="sound12.play()" class="buttons"> nothing </button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="div5" style=" ">
+
+<p style="text-align: center; font-size: 33px;"></p>
+
+
+<p class="p1" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+We use a singular verb after an indefinite pronoun:<br><br>
+
+&bull; <b>Everybody</b> loves Sally.<br>
+&bull; <b>Everything</b> was ready for the party.
+</p>
+
+<p class="p1" style="text-align: left;  background-color:#D1E4C4; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;"> 
+When we refer back to an indefinite pronoun, we normally use a plural pronoun:<br><br>
+
+&bull; <b>Everybody</b> enjoyed the concert. <b>They</b> stood up and clapped.<br>
+&bull; I will tell <b>somebody</b> that dinner is ready. <b>They</b> have been waiting a long time.
+</p>
+
+<p class="p1" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">	
+In negative clauses, we use pronouns with no-, not pronouns with any-:<br><br>
+&bull; Nobody came. &#10004; &emsp;&emsp;&emsp; Anybody didn't come. &#10006;
+</p>
+
+
+<p class="p1" style="text-align: left;  background-color:#D1E4C4; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;"> 
+We do not use another negative in a clause with nobody, no one or nothing:<br><br>
+
+&bull; Nobody came. &#10004; &emsp;&emsp;&emsp; Nobody didn't come. &#10006;<br>
+&bull; Nothing happened. &#10004; &emsp;&nbsp;  Nothing didn't happen. &#10006;
+</p>
+
+
+<p class="p1" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">  
+We can add <b>'s</b> to an indefinite pronoun to make a possessive:<br><br>
+
+&bull; They were staying in somebody<b>'s</b> house.<br>
+&bull; Is this anybody<b>'s</b> coat?
+ </p>
+
+<p class="p1" style="text-align: left;  background-color:#D1E4C4; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+We use else after indefinite pronouns to refer to other people or things:<br><br>
+
+&bull; If Michael can't come, we'll ask somebody else.<br>
+&bull; I think this is somebody else's coat.
+</p>
+
+
+<p class="p1" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">  
+
+<b>Indefinite pronouns</b> are pronouns that do not refer to any specific person, thing, or amount. Instead, they refer to non-specific entities in a more general sense. Let's explore them further:<br><br>
+Types of Indefinite Pronouns:<br><br>
+
+1. Singular: These refer to one person or thing.<br>
+
+Examples: anyone &bull; someone &bull; nobody &bull; anything &bull; something &bull; nobody &bull; another &bull; each &bull; either &bull; less &bull; little &bull; neither<br><br>
+
+2. Plural: These refer to more than one person or thing.<br>
+
+Examples: all &bull; both &bull; several &bull; few &bull; many &bull; others <br><br>
+3. Singular or Plural: These can refer to either one or more than one person or thing.<br>
+
+Examples: all &bull; any &bull; some &bull; none &bull; more &bull; most &bull; enough<br><br>
+
+4. Quantitative: These indicate an amount or quantity without specifying exactly how much.<br>
+
+Examples: some &bull; any &bull; none &bull; all<br><br>
+5. Qualitative: These indicate an undefined quality or characteristic.<br>
+
+Examples: someone &bull; something &bull; anyone &bull; anything
+
+</p>
+
+<p class="p1" style="text-align: left;  background-color:#D1E4C4; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">  
+
+Functions of Indefinite Pronouns:<br><br>
+
+&bull; Replacing Nouns: Indefinite pronouns replace nouns in sentences where the specific person or thing is not identified.<br>
+
+Examples: "Someone left their umbrella behind."<br><br>
+
+&bull; Indicating Quantity: Indefinite pronouns can indicate an unspecified quantity or amount.<br>
+
+Examples: "Many enjoyed the performance."<br><br>
+&bull; Expressing Generality: They express general ideas without specifying particular individuals or things.<br>
+
+Examples: "Anything is possible if you put your mind to it."<br><br>
+
+&bull; Making General Statements: Indefinite pronouns are used to make general statements about people, things, or situations.<br>
+
+Examples: "Everybody loves a good story."<br><br>
+
+</p>
+
+
+
+<p class="p1" style="text-align: left;  background-color:#F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">  
+
+
+
+&emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;Using Indefinite Pronouns in Sentences:<br><br>
+
+&bull; Indefinite pronouns are typically used in situations where the speaker wants to refer to a non-specific person, thing, or amount.<br>
+&bull; They are commonly used in sentences where the exact identity of the subject or object is not important or unknown.<br>
+&bull; It's important to match the indefinite pronoun with the appropriate verb form <b>singular or plural</b> depending on its meaning and context.
+
+</p>
+
+</div>
+
+<script>
+
+  var sound1 = new Audio();
+  sound1.src = "anybody.mp3";
+
+  var sound2 = new Audio();
+  sound2.src = "everybody.mp3";
+
+  var sound3 = new Audio();
+  sound3.src = "somebody.mp3";
+
+  var sound4 = new Audio();
+  sound4.src = "nobody.mp3";
+
+  var sound5 = new Audio();
+  sound5.src = "anyone.mp3";
+
+  var sound6 = new Audio();
+  sound6.src = "everyone.mp3";
+
+  var sound7 = new Audio();
+  sound7.src = "someone.mp3";
+
+  var sound8 = new Audio();
+  sound8.src = "noone.mp3";
+
+  var sound9 = new Audio();
+  sound9.src = "anything.mp3";
+
+  var sound10 = new Audio();
+  sound10.src = "everything.mp3";
+
+  var sound11 = new Audio();
+  sound11.src = "something.mp3";
+
+  var sound12 = new Audio();
+  sound12.src = "nothing.mp3";
+
+
+</script>
+</body>
+</html>
